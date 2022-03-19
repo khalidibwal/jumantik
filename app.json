@@ -1,12 +1,14 @@
 {
+  "name": "brantasjentik",
+  "displayName": "Jumantik By Walid",
   "expo": {
-    "name": "brantas-jentik",
+    "name": "Jumantik By Walid",
     "slug": "brantas-jentik",
-    "version": "1.0.0",
+    "version": "4.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/image/icon/start.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/image/icon/start.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,7 +25,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.khalid1995.brantasjentik",
+      "versionCode": 10,
+      "permissions": ["ACCESS_FINE_LOCATION","ACCESS_NETWORK_STATE","ACCESS_WIFI_STATE","CAMERA","FOREGROUND_SERVICE","INTERNET","MODIFY_AUDIO_SETTINGS","READ_APP_BADGE","RECEIVE_BOOT_COMPLETED","SYSTEM_ALERT_WINDOW","WAKE_LOCK","WRITE_EXTERNAL_STORAGE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
