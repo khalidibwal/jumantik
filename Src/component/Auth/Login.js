@@ -62,29 +62,7 @@ export default class Login extends Component {
     alert('Login failure. Please tried again.');
   };
 
-//   userLogin = () => {
-//     if(this.state.email === '' && this.state.password === '') {
-//       Alert.alert('Enter details to signin!')
-//     } else {
-//       this.setState({
-//         isLoading: true,
-//       })
-//       firebase
-//       .auth()
-//       .signInWithEmailAndPassword(this.state.email, this.state.password)
-//       .then((res) => {
-//         console.log(res)
-//         console.log('User logged-in successfully!')
-//         this.setState({
-//           isLoading: false,
-//           email: '', 
-//           password: ''
-//         })
-//         this.props.navigation.navigate('Home')
-//       })
-//       .catch(error => this.setState({ errorMessage: error.message }))
-//     }
-//   }
+
 onChangeTextEmail = email => this.setState({ email });
 onChangeTextPassword = password => this.setState({ password });
 

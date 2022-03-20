@@ -23,7 +23,7 @@ export default function Menu(props){
         {text: 'Cancel'},
         {text: 'Confirm', onPress: () => {
           firebase.auth().signOut()
-          navigate('login')
+          navigate('phoneauth')
         }},
       ],
       { cancelable: true }

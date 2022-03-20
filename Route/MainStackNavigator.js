@@ -8,6 +8,7 @@ import Activity from '../Src/screen/Activity'
 import Menu from '../Src/component/Drawer/Menu';
 import SignUp from '../Src/component/Auth/SignUp';
 import Login from '../Src/component/Auth/Login';
+import PhoneAuth from '../Src/component/Auth/PhoneAuth';
 import Plague from '../Src/screen/data/Plague';
 import Profile from '../Src/screen/Profile';
 import MyCamera from '../Src/screen/data/MyCamera'
@@ -56,8 +57,8 @@ const MainStackNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="login"
-          component={Login}
+          name="phoneauth"
+          component={PhoneAuth}
           options={{headerShown:false }}
         />
         <Stack.Screen
